@@ -1,1 +1,68 @@
-theme: jekyll-theme-architect
+# Site settings
+title: MediSpa Salon
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url:
+
+# Hero
+hero:
+    hero_img: woman.jpg
+    hero_title: 'Welcome to MediSpa'
+
+# Contact form
+api_token: # Enter API token here
+
+# Contact info
+contact:
+    phone: (281)-852-2000
+    email: contact@medispatx.com
+    address: 23834 US HWY 59 N. KINGWOOD, TX 77339
+
+# Opening hours
+monday_friday: 9:00AM – 6:00PM
+saturday: 10:00AM – 4:00PM
+sunday: 11:00AM – 4:00PM
+
+# Testimonials
+testimonials:
+    testimonials_img: bikini-girl.jpg
+
+body_contouring:
+  body_contouring_img: toner.jpg
+
+# Map
+map:
+    zoom: 17
+    address: 23834 US Highway 59 N Kingwood, TX 77339
+    address_details:
+
+# Social settings
+
+# Aunt Betty needs social media
+facebook: http://facebook.com
+twitter: http://twitter.com
+instagram: http://instagram.com
+youtube: http://youtube.com
+# skype: skype:obaez_design?userinfo
+# feed: yes
+
+# Footer
+copyright: © 2019 MediSpa - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+# Theme Settings
+analytics:
+google_verification:
